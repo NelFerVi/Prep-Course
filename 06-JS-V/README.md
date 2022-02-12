@@ -141,7 +141,7 @@ Nosotros también podemos generar nuestros propios constructores que de los cual
 < 'Soy Emi de Buenos Aires'
 ```
 
-Ahora todo Alumno de Henry antes de Alumno es una Persona, asique podríamos decir que un Alumno hereda las propiedades de ser Persona.
+Ahora todo Alumno de Henry antes de Alumno es una Persona, asi que podríamos decir que un Alumno hereda las propiedades de ser Persona.
 
 ``` javascript
 > function Alumno(nombre,apellido,ciudad,curso) {
@@ -163,7 +163,7 @@ Descartemos esta opción.
 > function Alumno(nombre, apellido, ciudad, curso) {
     // usemos nuestro constructor Persona dentro del de Alumno
     Persona.call(this, nombre, apellido, ciudad);
-    // vamos a necesitar el call porque queremos que las propiedades de persona, queden en bajo el objeto que va a devolver Alumno, y no uno nuevo del constructor Persona.
+    // vamos a necesitar el call porque queremos que las propiedades de persona, queden bajo el objeto que va a devolver Alumno, y no uno nuevo del constructor Persona.
     // luego le paso los valores que quiero que reciba el constructor de Alumno
     
     // finalmente le agrego los puntos propios de Alumno
