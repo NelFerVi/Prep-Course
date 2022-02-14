@@ -5,8 +5,6 @@
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-
-
 class Usuario {
   constructor(opciones) {
     this.usuario = opciones.usuario;
@@ -27,5 +25,4 @@ var objMauri = {
 }
 
 var mauricio = new Usuario(objMauri);
-
 console.log(mauricio.nombre);
