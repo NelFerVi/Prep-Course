@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Ejemplo aprenderaprogramar.com</title><meta charset="utf-8">
+
+        <script type="text/javascript">
+            function Taxi (tipoMotor) {
+                this.tipoMotor = tipoMotor;
+                alert('Se ha creado un objeto taxi con tipo motor: ' + this.tipoMotor);
+
+                this.getCapacidad = function () { if (tipoMotor == 'Diesel') { return 40;} else {return 35;} }
+
+            }
+
+            function ejemploObjetos() {
+                var coche1 = new Taxi('Diesel');
+                var coche2 = new Taxi('Gasolina');
+                alert ('El coche 1 tiene capacidad ' + coche1.getCapacidad() + ' litros\n');
+                alert ('El coche 2 tiene capacidad ' + coche2.getCapacidad() + ' litros\n');
+            }
+
+        </script>
+    </head>
+
+    <body><div id="cabecera"><h2>Cursos aprenderaprogramar.com</h2><h3>Ejemplos JavaScript</h3></div>
+
+        <div style="color:blue;" id ="pulsador" onclick="ejemploObjetos()"> Probar </div>
+
+    </body>
+</html>

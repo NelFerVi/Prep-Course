@@ -75,7 +75,8 @@ autos.forEach(mostrarNombres);
 
 ### **.reduce**
 
-`.reduce` ejecutará un bucle en nuestra matriz con la intención de reducir cada elemento en un elemento que se devuelve. Como es el primer argumento, acepta un callback que toma dos argumentos, primero un 'acumulador' (el resultado del método de reducción hasta ahora), y el segundo es el elemento en el que se encuentra actualmente. El callback debe contener siempre una declaración de devolución ("return"). `.reduce` también toma un segundo argumento opcional, que sería el acumulador de arranque ("starting accumulator"). Si no se suministra el acumulador de arranque, la reducción comenzará en el primer elemento de la matriz. `.reduce` siempre devolverá el acumulador cuando termine de recorrer los elementos.
+`.reduce` ejecutará un bucle en nuestra matriz con la intención de reducir cada elemento en un elemento que se devuelve. Como es el primer argumento, acepta un callback que toma dos argumentos, primero un 'acumulador' (el resultado del método de reducción hasta ahora), y el segundo es el elemento en el que se encuentra actualmente. El callback debe contener siempre una declaración de devolución ("return"). `.reduce` también toma un segundo argumento opcional, que sería el valor inicial del contador  ("starting accumulator"). Si no se suministra este valor inicial, la reducción comenzará en el primer elemento de la matriz.
+`.reduce` siempre devolverá el acumulador cuando termine de recorrer los elementos.
 
 ```javascript
 const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -83,7 +84,7 @@ const palabras = ["Hola,", "mi", "nombre", "es", "Martin"];
 
 // Podemos escribir la función anónima directamente en los paréntesis de .reduce
 // Si omitimos el elemento inicial, siempre comenzará en el primer elemento.
-const suma = numeros.reduce(function (acc, elemento) {
+const suma = numeros.reduce(function(acc, elemento) {
   return acc + elemento;
 });
 
