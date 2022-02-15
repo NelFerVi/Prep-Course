@@ -1,0 +1,26 @@
+img {
+    width: 400px;
+}
+
+.encabezado {
+    background: rgb(207, 186, 186);
+}
+
+img {
+    border: 3px solid rgb(34, 30, 30);
+}
+h1, h2, h3 {
+    color: rgb(41, 41, 194);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+Div {
+    height: auto;
+    width: 500;
+    background: rgb(209, 214, 169);
+    padding: 20px;
+    border: 3px solid rgb(22, 85, 25);
+    font-size: 18px;
+    margin: 60px;
+    color: rgb(34, 34, 158);
+}
