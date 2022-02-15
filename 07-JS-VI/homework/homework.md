@@ -6,7 +6,7 @@
 ### Las Funciones son Objetos
 Lo primero que tenemos que saber es que en Javascript, las funciones son objetos de primera clase. Como tales, podemos trabajar con ellos de la misma forma que trabajamos con otros objetos, como asignarlos a variables y pasarlos como argumentos a otras funciones. Esto es importante, porque esta última técnica nos permite ampliar la funcionalidad de nuestras aplicaciones.
 
-##Funciones Callback
+## Funciones Callback
 Una función callback es aquella que es pasada como argumento a otra función para que sea "llamada de nuevo" (call back) en un momento posterior. Una función que acepta otras funciones como argumentos es llamada función de orden-superior (High-Order), y contiene la lógica para determinar cuándo se ejecuta la función callback. Es la combinación de estas dos la que nos permite ampliar nuestra funcionalidad.
 
 ### Para ilustrar las funciones callback, iniciemos con un ejemplo simple:
