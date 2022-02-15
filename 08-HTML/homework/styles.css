@@ -1,21 +1,20 @@
+h1 {
+    color: green;
+} 
+
 img {
     width: 400px;
 }
-.thirdDiv {
-    height: 600px;
+
+#thirdDiv {
+    height: 700px;
     width: 500;
-    background: grey;
+    background-color: rgb(215, 219, 128);
     padding: 50px;
     border: 5px solid blue;
 }
+
 #spanId {
     font-size: 18px;
     margin: 50px;
-}
-
-
-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
